@@ -26,3 +26,9 @@ nav#home li a {
 #dropdown-user{
     left: -145px;
 }
+
+@media screen and (max-width: 768px) {
+    #dropdown-user{
+        left: 0;
+    }
+}
