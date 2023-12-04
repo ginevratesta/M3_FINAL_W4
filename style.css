@@ -1,0 +1,28 @@
+body{
+    background-color: #141414;
+    color: white;
+}
+
+nav{
+    background-color: #141414;
+}
+
+#logo{
+    width: 100px;
+    height: 20px;
+    object-fit: cover;
+}
+
+nav#home li a {
+    color: white;
+}
+
+.nav-link.dropdown-toggle img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+#dropdown-user{
+    left: -145px;
+}
