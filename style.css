@@ -27,6 +27,54 @@ nav#home li a {
     left: -145px;
 }
 
+#display-op{
+    border: 1px solid white;
+    width: 60px;
+    height: 25px;
+    padding-inline: 6px; 
+}
+
+#divider-op{
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+
+.list-icon{
+    padding-block: 2px;
+}
+
+#genre-op{
+    background-color: black;
+    border-radius: 0;
+    padding: 3px 10px;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.container{
+    width: 90%;
+}
+
+.carousel-item img{
+    width: 210px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.carousel-control-prev {
+    left: -30px;
+    width: 30px;
+}
+.carousel-control-next {
+    right: -30px;
+    width: 30px;
+}
+
+
+
+
+
+
 @media screen and (max-width: 991px) {
     #dropdown-user{
         left: 0;
