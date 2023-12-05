@@ -56,6 +56,7 @@ nav#home li a {
     height: 100%;
     object-fit: cover;
 }
+
 .carousel-control-prev{
     width: 5%;
     left: -5%;
@@ -66,9 +67,50 @@ nav#home li a {
     right: -5%;
 }
 
+footer{
+    padding-inline: 25%;
+    color: gray;
+    font-size: 12px;
+}
+
+footer ion-icon{
+    font-size: 30px;
+}
+
+#code-btn{
+    border: 1px solid gray;
+    width: 85px;
+    height: 25px;
+    padding: 3px;
+}
+
+.card{
+    border: none;
+    background-color: #141414;
+    color: white;
+}
+
+.card-body{
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
 
+.card:hover{
+    transform: scale(1.3);
+    transition: 0.3s ease-in-out;
+    z-index: 2;
+}
 
+.card:hover .card-body{
+    height: auto;
+    padding: 10px;
+    border: 1px solid gray;
+    z-index: 2;
+
+    
+}
 
 
 
