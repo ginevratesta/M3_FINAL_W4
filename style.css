@@ -76,4 +76,13 @@ nav#home li a {
     #dropdown-user{
         left: 0;
     }
+    .carousel-control-prev{
+        width: 20%;
+        left: 0;
+    }
+    
+    .carousel-control-next{
+        width: 20%;
+        right: 0;
+    }
 }
