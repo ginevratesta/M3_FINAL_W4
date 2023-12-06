@@ -97,9 +97,10 @@ footer ion-icon {
 
 .card-body {
   max-height: 0;
-  padding: 0;
+  padding-block: 0;
+  padding-inline: 10px;
   overflow: hidden;
-  transition: height 0.3s, padding 0.3s, border 0.3s;
+  transition: height 0.1s, padding 0.3s, border 0.3s;
   border: 0;
 }
 
