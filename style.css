@@ -115,6 +115,16 @@ footer ion-icon {
   border: 1px solid gray;
 }
 
+.play-btn{
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
 @media screen and (max-width: 991px) {
   #dropdown-user {
     left: 0;
