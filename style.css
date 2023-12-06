@@ -107,9 +107,7 @@ footer ion-icon{
     height: auto;
     padding: 10px;
     border: 1px solid gray;
-    z-index: 2;
-
-    
+    transition: 0.3s;
 }
 
 
