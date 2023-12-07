@@ -27,6 +27,11 @@ nav#home li a {
   left: -145px;
 }
 
+.hero-section{
+  max-height: 800px;
+  
+}
+
 #display-op {
   border: 1px solid white;
   width: 60px;
@@ -100,7 +105,7 @@ footer ion-icon {
   padding-block: 0;
   padding-inline: 10px;
   overflow: hidden;
-  transition: height 0.1s, padding 0.3s, border 0.3s;
+  transition: height 0.3s, padding 0.3s, border 0.3s;
   border: 0;
 }
 
