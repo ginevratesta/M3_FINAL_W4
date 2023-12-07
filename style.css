@@ -20,17 +20,33 @@ nav {
   object-fit: cover;
 }
 
+ul.dropdown-menu, ul.dropdown-menu li{
+  background-color: #141414;
+  opacity: 0.9;
+}
+
+ul.dropdown-menu li a:hover, ul.dropdown-menu li a:hover{
+  background-color: black;
+  color: white;
+}
+
+ul.dropdown-menu li a {
+  color: white;
+}
+
 nav#home li a {
   color: white;
 }
 
-.nav-link.dropdown-toggle img {
+
+.nav-link.dropdown-toggle img, .dropdown-item img {
   width: 25px;
   height: 25px;
   object-fit: cover;
 }
 
 #dropdown-user {
+  top: 40px;
   left: -145px;
 }
 
@@ -144,8 +160,16 @@ footer ion-icon {
   padding: 5px;
 }
 
+
+.carousel {
+  opacity: 0; 
+  transform: translateX(-50px); 
+  transition: opacity 1.5s ease, transform 2s ease; 
+}
+
 @media screen and (max-width: 991px) {
   #dropdown-user {
+    top: 30px;
     left: 0;
   }
 }
