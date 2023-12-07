@@ -20,12 +20,14 @@ nav {
   object-fit: cover;
 }
 
-ul.dropdown-menu, ul.dropdown-menu li{
+ul.dropdown-menu,
+ul.dropdown-menu li {
   background-color: #141414;
   opacity: 0.9;
 }
 
-ul.dropdown-menu li a:hover, ul.dropdown-menu li a:hover{
+ul.dropdown-menu li a:hover,
+ul.dropdown-menu li a:hover {
   background-color: black;
   color: white;
 }
@@ -38,8 +40,8 @@ nav#home li a {
   color: white;
 }
 
-
-.nav-link.dropdown-toggle img, .dropdown-item img {
+.nav-link.dropdown-toggle img,
+.dropdown-item img {
   width: 25px;
   height: 25px;
   object-fit: cover;
@@ -85,10 +87,19 @@ nav#home li a {
   font-weight: bold;
 }
 
+.carousel-inner.overflow-visible {
+  height: 110px;
+}
+
 .carousel-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.carousel {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1.5s ease, transform 2s ease;
 }
 
 .carousel-control-prev {
@@ -116,10 +127,6 @@ footer ion-icon {
   width: 85px;
   height: 25px;
   padding: 3px;
-}
-
-.carousel-inner.overflow-visible {
-  height: 110px;
 }
 
 .card {
@@ -158,13 +165,6 @@ footer ion-icon {
   justify-content: center;
   align-items: center;
   padding: 5px;
-}
-
-
-.carousel {
-  opacity: 0; 
-  transform: translateX(-50px); 
-  transition: opacity 1.5s ease, transform 2s ease; 
 }
 
 @media screen and (max-width: 991px) {
