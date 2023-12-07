@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-nav {
+#home {
   background-color: #141414;
 }
 
@@ -112,16 +112,6 @@ nav#home li a {
   right: -5%;
 }
 
-footer {
-  padding-inline: 25%;
-  color: gray;
-  font-size: 12px;
-}
-
-footer ion-icon {
-  font-size: 30px;
-}
-
 #code-btn {
   border: 1px solid gray;
   width: 85px;
@@ -166,6 +156,17 @@ footer ion-icon {
   align-items: center;
   padding: 5px;
 }
+
+footer {
+  padding-inline: 25%;
+  color: gray;
+  font-size: 12px;
+}
+
+footer ion-icon {
+  font-size: 30px;
+}
+
 
 @media screen and (max-width: 991px) {
   #dropdown-user {
