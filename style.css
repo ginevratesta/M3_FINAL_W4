@@ -1,7 +1,12 @@
 body {
   background-color: #141414;
   color: white;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;    
+  overflow-y: scroll;
 }
+
+body::-webkit-scrollbar {display: none;}
 
 nav {
   background-color: #141414;
@@ -28,8 +33,14 @@ nav#home li a {
 }
 
 .hero-section{
-  max-height: 800px;
-  
+  max-height: 780px;
+}
+
+.hero-section img{
+  width: 45%;
+  left: 40px;
+  bottom: 0px;
+  z-index: 3;
 }
 
 #display-op {
