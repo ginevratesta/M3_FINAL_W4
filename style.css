@@ -1,12 +1,14 @@
 body {
   background-color: #141414;
   color: white;
-  -ms-overflow-style: none;  
-  scrollbar-width: none;    
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   overflow-y: scroll;
 }
 
-body::-webkit-scrollbar {display: none;}
+body::-webkit-scrollbar {
+  display: none;
+}
 
 nav {
   background-color: #141414;
@@ -32,11 +34,11 @@ nav#home li a {
   left: -145px;
 }
 
-.hero-section{
+.hero-section {
   max-height: 780px;
 }
 
-.hero-section img{
+.hero-section img {
   width: 45%;
   left: 40px;
   bottom: 0px;
@@ -132,14 +134,14 @@ footer ion-icon {
   border: 1px solid gray;
 }
 
-.play-btn{
-    border: 1px solid white;
-    border-radius: 50%;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
+.play-btn {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
 }
 
 @media screen and (max-width: 991px) {
