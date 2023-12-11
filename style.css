@@ -52,6 +52,10 @@ nav#home li a {
   left: -145px;
 }
 
+.cursor{
+  cursor: pointer;
+}
+
 .hero-section {
   max-height: 780px;
 }
@@ -124,6 +128,7 @@ nav#home li a {
   background-color: #141414;
   color: white;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .card-body {
@@ -184,4 +189,11 @@ footer ion-icon {
     width: 2%;
     left: -3%;
   }
+}
+
+@media screen and (max-width: 343px) {
+  .play-btn{
+    font-size: 7px;
+    padding: 4px;
+  } 
 }
